@@ -331,8 +331,10 @@ span.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-si
   background: var(--secondary-background-transparent) !important;
 }
 .MuiLinearProgress-bar {
-  background: var(--primary-accent-color) !important;
   border-radius: inherit;
+}
+.MuiLinearProgress-bar2 {
+  opacity: 0.8;
 }
 .css-lmbv6g .MuiTypography-root {
   font-weight: 600;
