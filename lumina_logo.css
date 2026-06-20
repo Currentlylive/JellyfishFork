@@ -18,3 +18,17 @@
 #loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
     background-size: 100% !important;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~ LOGO ANIMATION ~~~~~~~~~~~~~~~~~~~~ */
+@keyframes logoFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#loginPage .visualLoginForm:not(.hide) h1::before {
+    animation: logoFadeIn 1.5s ease-in-out forwards;
+}
