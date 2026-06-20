@@ -1,26 +1,24 @@
-/* Jellyfish Grey Theme */
+/* Lumina Coal Theme */
 :root {
     --primary-r: 147;
     --primary-g: 112;
     --primary-b: 219;
     --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
     --secondary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.6);
-    --primary-background-transparent: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.1);
-    --secondary-background-transparent: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.2);
-    --primary-background-color: #000000; /* Main background */
-    --secondary-background-color: #181818; /* Drawer, cards, dialogs */
-    --tertiary-background-color: #252525; /* Popovers */
+    --primary-background-transparent: rgba(30, 30, 30, 0.1);
+    --secondary-background-transparent: rgba(30, 30, 30, 0.2);
+    --primary-background-color: #000000;
+    --secondary-background-color: #181818;
+    --tertiary-background-color: #252525;
     --alt-accent-color: #ffffff20;
-    --text-color: #ffffff; /* Text color for better contrast */
-    --header-background-color: #ffffff6e; /* This is header and tabs background */
+    --text-color: #ffffff;
+    --header-background-color: #ffffff6e;
     --logo: url("https://cdn.jsdelivr.net/gh/Currentlylive/jellyfishfork/logos/lumina.png");
     --background-image: url(https://cdn.jsdelivr.net/gh/Currentlylive/jellyfishfork/colors/images/coal.jpg);
     --footer-message: "✨ Welcome to Lumina. What are we streaming tonight?";
-
-    /* Alternate accents */
-    --primary-alt1: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 1);
-    --primary-alt2: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.85);
-    --primary-alt3: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.7);
-    --primary-alt4: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
-    --primary-alt5: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
+    --primary-alt1: rgba(20, 20, 20, 1);
+    --primary-alt2: rgba(20, 20, 20, 0.85);
+    --primary-alt3: rgba(20, 20, 20, 0.7);
+    --primary-alt4: rgba(20, 20, 20, 0.55);
+    --primary-alt5: rgba(20, 20, 20, 0.4);
 }
