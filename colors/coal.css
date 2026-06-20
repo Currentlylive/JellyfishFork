@@ -15,7 +15,7 @@
     --header-background-color: #ffffff6e; /* This is header and tabs background */
     --logo: url("https://cdn.jsdelivr.net/gh/Currentlylive/jellyfishfork/logos/lumina.png");
     --background-image: url(https://cdn.jsdelivr.net/gh/Currentlylive/jellyfishfork/colors/images/coal.jpg);
-    --footer-message: "🪨 Hot like coal, streamin’ rock and roll!";
+    --footer-message: "✨ Welcome to Lumina. What are we streaming tonight?";
 
     /* Alternate accents */
     --primary-alt1: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 1);
